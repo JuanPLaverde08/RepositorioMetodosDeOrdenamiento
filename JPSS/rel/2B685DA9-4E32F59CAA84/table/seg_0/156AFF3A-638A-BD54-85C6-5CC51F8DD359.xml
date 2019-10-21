@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="156AFF3A-638A-BD54-85C6-5CC51F8DD359" name="PROVEEDORES">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:40:48 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProveedor" id="85210620-AEB0-25A0-9943-BBBF5FA9F0D0">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:42:31 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreProveedor" id="332ED2E0-155E-0EB1-17F1-FE3412F86262">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:42:31 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correoProveedor" id="FDE3A336-8804-28ED-B5B2-F510DC3F8279">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:42:31 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonoProveedor" id="8F311790-CDE8-223B-A41A-4C1AEE302EA0">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:42:31 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correoProveedor_1" id="492BF2D4-B77C-EF98-E7AB-FF50829783F6">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:42:31 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTOS_codigoProducto" id="F5920D5E-2135-416E-9E6F-29C4AC13AA99">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:44:36 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5AFD6C9-D77A-B52F-EA28-E52EFA591D7D" referredColumn="E1D69A20-6CB7-3F0C-1628-0AC176DC58A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7EBBB25-84F3-5067-909D-60CED219BFF6" name="PROVEEDORES_PK">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:42:31 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85210620-AEB0-25A0-9943-BBBF5FA9F0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00539D74-987F-14CC-D672-728DAC64D283" name="PROVEEDORES_PRODUCTOS_FK">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:44:36 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5920D5E-2135-416E-9E6F-29C4AC13AA99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

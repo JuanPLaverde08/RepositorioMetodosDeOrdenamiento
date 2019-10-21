@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="JPSS" id="12492E10-F113-8B9A-4A4E-6C517B5532D8" version="3.5">
+<createdBy>juapl</createdBy>
+<createdTime>2019-10-21 21:12:56 UTC</createdTime>
+<ownerDesignName>JPSS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>12492E10-F113-8B9A-4A4E-6C517B5532D8</designId>
+</OSDM_Design>
